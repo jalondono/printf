@@ -30,7 +30,7 @@ int convert(unsigned int num, char s)
 		base = 16;
 		break;
 	}
-	ptr = &buffer[49];
+	ptr = &buffer[200];
 	*ptr = '\0';
 	do
 

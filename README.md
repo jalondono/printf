@@ -1,5 +1,6 @@
 # _printf
 This printf function use the same methodology for normal output function depending on the format and returning the size of the string
+<img align="center" src="https://microchip.wdfiles.com/local--files/tls2101%3Aprintf/printf2.png" width="100%" />
 ## How to use it
 ### First you have to add the holberton library. "holberton.h"
 

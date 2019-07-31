@@ -5,7 +5,9 @@ This printf function use the same methodology for normal output function dependi
 int _printf(const char *format, ...);
 ```
 <img align="center" src="https://microchip.wdfiles.com/local--files/tls2101%3Aprintf/printf2.png" width="100%" />
+
 ## How to use it
+
 ### First you have to add the holberton library. "holberton.h"
 
 Because there are the prototypes functions that you will need to execute the _printf function

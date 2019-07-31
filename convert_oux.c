@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include <unistd.h>
+
 /**
  *convert - print whatever
  *Result: a size of string to print
@@ -40,7 +42,8 @@ int convert(unsigned int num, char s)
 		num /= base;
 		} while (num != 0);
 
-		_puts(ptr);
+
 		size = _strlen(ptr);
+		write(1, ptr, size);
 		return (size);
 }
